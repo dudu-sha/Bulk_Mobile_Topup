@@ -1,0 +1,117 @@
+.App {
+text-align: center;
+}
+
+.App-logo {
+height: 40vmin;
+pointer-events: none;
+}
+.container{
+height: 100%;
+
+
+}
+input[type="file"] {
+display: none;
+}
+.excel{
+color: black;
+background-color:rgb(243, 241, 241);
+border-width: 0;
+width: 50%;
+height: 30px;
+margin-top: 50%;
+margin-left: 25%;
+padding: auto;
+margin-top: 20%;
+
+
+}
+.info{
+  margin-left: 37%;
+  margin-top: 30px;
+}
+.form{
+  
+height: 400px;
+background-color: rgb(243, 241, 241);
+width: 26%;
+margin-left: 37%;
+margin-top: 20px;
+border-radius: 15px;
+}
+.header{
+flex: 1;
+margin-top: -20px;
+height: 60px;
+width: 100%;
+background-color:#B78700;
+}
+.ft_input{
+height: 8%;
+width:50%;
+margin-top: 10%;
+margin-left: 25%;
+/* border-width: 0ch; */
+
+border-bottom-width: 2%;
+border-bottom-color: #B78700;
+border-color: #B78700;
+
+}
+.button {
+  display: inline-block;
+padding: 1px;
+  cursor: pointer;
+border-radius: 3%;
+box-shadow: 20px;
+background-color:  #B78700;
+
+margin-left: 25%;
+color:white;
+height: 9%;
+width: 50%;
+
+font-size: 15px;
+}
+.button1{
+/* border-width: 0; */
+cursor: pointer;
+border-color: #B78700;
+height: 9%;
+width: 30%;
+margin-left: 60%;
+margin-top: 20%;
+border-radius: 5%;
+
+background-color: #B78700;
+}
+@media (prefers-reduced-motion: no-preference) {
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+}
+
+.App-body {
+background-color: #fffffc;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+color: white;
+}
+
+.App-link {
+color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+from {
+  transform: rotate(0deg);
+}
+to {
+  transform: rotate(360deg);
+}
+}
