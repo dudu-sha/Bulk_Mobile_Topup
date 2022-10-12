@@ -39,7 +39,7 @@ for(const sheetName of req.body.workbook1.SheetNames){
   headers={
 
   }
-   await axios.post('http://172.20.18.44:9992/topup_middleware_kong.php',body, { headers })
+   await axios.post(process.env.URL,body, { headers })
     .then(function (response) {
     // console.log(i+" phone :"+worksheets.Sheet1[i].phone + "       amount :"+worksheets.Sheet1[i].amount + "  response "+ JSON.stringify(response.data))
       // console.log("RES"+response.data.split(`"`)[3]);
